@@ -1,0 +1,39 @@
+.page-content {
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.page-content h5 {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 10px;
+}
+
+.page-content-login {
+    border: 1px 0 0 0;
+}
+
+.pull-xs-left {
+    margin-top: 20px;
+}
+
+.pull-xs-left button {
+    background-color: #2edc7c;
+    color: #fff;
+    border: 1px solid #2edc7c;
+}
+
+.pull-xs-left button:hover {
+    background-color: #fff;
+    color: #2edc7c;
+}
+
+.page-content-login .form-signup {
+    border-top: 1px solid red;
+    padding: 10px;
+}

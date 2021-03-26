@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/bookstore/StartServer.java=UTF-8
+encoding//src/main/java/com/bookstore/config/WebMVC.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/index.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/login.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/mail.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/category.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/contact.jsp=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding/<project>=UTF-8

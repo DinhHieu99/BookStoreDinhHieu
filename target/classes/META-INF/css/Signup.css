@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+}
+
+h2,
+h6 {
+    width: 100%;
+}
+
+.form-group {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.form-group label {
+    display: inline;
+}
+
+.form-group div {
+    display: inline-block;
+}
+
+.required {
+    display: block;
+}
+
+.content fieldset {
+    border: 1px solid #E1E1E1;
+}
+
+.content legend {
+    width: 20%;
+    margin-left: 1%;
+    padding-left: 1%;
+    text-align: left;
+}
+
+input[name="singup"]:hover {
+    background-color: #f5f5f5;
+    color: blue;
+}
+
+@media screen and (max-width: 1200px) {
+    .showcart .text {
+        display: none;
+    }
+    .logo img {
+        display: block;
+        max-width: 200px;
+        max-height: 95px;
+    }
+    .content legend {
+        width: 50%;
+        font-size: 16px;
+        margin-left: 1%;
+        padding-left: 1%;
+        text-align: left;
+    }
+    .form-group {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:760px) {
+    #mySidenav {
+        display: inline-block;
+    }
+    .header {
+        display: none;
+    }
+    .header_mob {
+        float: left;
+        width: 30%;
+        margin: 1px;
+        padding: 2px;
+    }
+    .header_mob .logo {
+        width: 100%;
+        margin: 1px;
+        padding: 10px;
+        margin-left: 10%;
+    }
+    .head_mob_menu {
+        float: left;
+        width: 25%;
+        height: auto;
+        padding: 5px;
+    }
+    .header-main .container .logo img {
+        display: block;
+    }
+    #collapsibleNavbar {
+        padding: 0px;
+        margin: 1px;
+        display: none;
+        width: 90%;
+    }
+    .wrapper-tab {
+        width: 100%;
+        margin: 1px;
+    }
+    .content {
+        margin: 1px;
+        padding-right: 5px;
+    }
+    .awe-section-1 {
+        margin-top: 10px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footer-left {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .footer-right {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .footer-bottom {
+        margin: 0;
+        width: 100%;
+    }
+    .mob_shop_cart {
+        position: relative;
+        float: right;
+        width: 60px;
+        height: 50px;
+        margin: 1px;
+    }
+    .mob_shop_cart .showcart {
+        margin: 1px;
+        width: 60px;
+        height: 50px;
+        padding: 1px;
+    }
+    .mob_shop_cart .showcart i {
+        margin: 1px;
+    }
+    .mob_shop_cart .showcart .cart-value {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    .logoMobile img {
+        width: 80%;
+    }
+    .content h2 {
+        font-size: 26px;
+    }
+    .content legend {
+        width: 50%;
+        font-size: 16px;
+        margin-left: 1%;
+        padding-left: 1%;
+        text-align: left;
+    }
+    .form-group {
+        text-align: left;
+    }
+}
+
+@media (max-width: 475px) {
+    #collapsibleNavbar {
+        width: 60%;
+    }
+    .content legend {
+        width: 50%;
+        font-size: 16px;
+        margin-left: 1%;
+        padding-left: 1%;
+        text-align: left;
+    }
+    .form-group {
+        text-align: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .logoMobile img {
+        width: 50%;
+    }
+    .content legend {
+        width: 50%;
+        font-size: 16px;
+        margin-left: 1%;
+        padding-left: 1%;
+        text-align: left;
+    }
+    .form-group {
+        text-align: left;
+    }
+}

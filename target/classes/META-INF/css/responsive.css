@@ -1,0 +1,214 @@
+@media screen and (max-width: 1200px) {
+    .showcart .text {
+        display: none;
+    }
+    .logo img {
+        display: block;
+        max-width: 200px;
+        max-height: 95px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .content-right .row .card-body {
+        width: 140px;
+        padding: 10px;
+    }
+    .content-right .row .card-img img {
+        width: 130px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    #mySidenav {
+        display: inline-block;
+    }
+    .card-columns {
+        column-count: 2;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .card-columns .card {
+        margin: 1px;
+    }
+    .our-service .col-md-12 .card-deck .col-md-3 {
+        display: inline-table;
+        width: 25%;
+    }
+    .section-head {
+        margin-left: 5%;
+    }
+    .section-head h2 {
+        font-size: 14px;
+    }
+    .section-head .view-more {
+        font-size: 14px;
+        padding: 2px;
+        margin-top: -3px;
+    }
+    .header {
+        display: none;
+    }
+    .header_mob {
+        float: left;
+        width: 30%;
+        margin: 1px;
+        padding: 2px;
+    }
+    .header_mob .logo {
+        width: 100%;
+        margin: 1px;
+        padding: 10px;
+        margin-left: 10%;
+    }
+    .head_mob_menu {
+        float: left;
+        width: 25%;
+        height: auto;
+        padding: 5px;
+    }
+    .header-main .container .logo img {
+        display: block;
+    }
+    .our-service {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .our-service .service {
+        float: left;
+        width: 25%;
+        font-size: 12px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .our-service .service img {
+        width: 50%;
+    }
+    #collapsibleNavbar {
+        padding: 0px;
+        margin: 1px;
+        display: none;
+        width: 90%;
+    }
+    .wrapper-tab {
+        width: 100%;
+        padding: 0;
+        margin: 1px;
+    }
+    .wrapper-tab .row {
+        margin-top: 20px;
+    }
+    .wrapper-tab .row .col-6 {
+        padding-left: 10px;
+    }
+    .wrapper-tab .card-body {
+        padding-right: 0;
+    }
+    .content {
+        margin: 1px;
+        padding-right: 5px;
+    }
+    .awe-section-1 {
+        margin-top: 10px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footer-left {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .footer-right {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .footer-bottom {
+        margin: 0;
+        width: 100%;
+    }
+    .card-img {
+        width: 120px;
+        height: 170px;
+    }
+    .mob_shop_cart {
+        position: relative;
+        float: right;
+        width: 60px;
+        height: 50px;
+        margin: 1px;
+    }
+    .mob_shop_cart .showcart {
+        margin: 1px;
+        width: 60px;
+        height: 50px;
+        padding: 1px;
+    }
+    .mob_shop_cart .showcart i {
+        margin: 1px;
+    }
+    .mob_shop_cart .showcart .cart-value {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    .logoMobile img {
+        width: 80%;
+    }
+    /*=============LoaiSP.html=================*/
+    .content-left,
+    .sort {
+        display: none;
+    }
+    #sort-by {
+        display: inline-block;
+    }
+    .title {
+        margin-left: -3%;
+        border: 0;
+        margin-right: 10px;
+    }
+    .dropdown-item {
+        background-color: orange;
+        color: #fff;
+    }
+    .content-inner .title {
+        margin-left: 0;
+    }
+    #img_01 {
+        display: inline-block;
+    }
+    .content-right .row .card-body {
+        width: 150px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 760px) {
+    .card-columns {
+        column-count: 4;
+    }
+    .our-service .col-md-3 {
+        float: left;
+        width: 25%;
+    }
+}
+
+@media (max-width: 475px) {
+    #collapsibleNavbar {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .logoMobile img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 320px) {
+    #product .form-group {
+        width: 200px;
+    }
+}

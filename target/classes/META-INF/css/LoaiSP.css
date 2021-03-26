@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-tab {
+    width: 85%;
+    margin: 10px 7%;
+    padding: 0px;
+}
+
+.content-left {
+    display: inline-block;
+    margin: 0px;
+}
+
+.title {
+    border: 1px solid #ebebeb;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content-left-menu {
+    border: 1px solid #ebebeb;
+    padding: 10px;
+}
+
+.content-left-menu .active {
+    display: inline;
+}
+
+.content-left-menu .nav-item i {
+    text-align: right;
+    margin-right: 1px;
+    padding: 1px;
+}
+
+.content-right {
+    display: inline;
+    float: right;
+}
+
+.sort h5 {
+    margin-left: 10px;
+}
+
+.sort .nav .nav-item i {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 5px 0 0;
+    position: relative;
+}
+
+.sort .nav .nav-item:hover .nav-link {
+    color: #9acf6a;
+}
+
+.sort .nav .nav-item:hover i {
+    border: 2px solid red;
+}
+
+.price {
+    color: orangered;
+}
+
+.wrapper-tab .card-text .discount {
+    color: #a4b9ae;
+    font-size: 12px;
+}
+
+.container-fluid {
+    margin-bottom: 10px;
+    float: left;
+}
+
+#sort-by {
+    display: none;
+}
+
+#supplier {
+    padding: 10px 15px;
+}
+
+.content-right .row .col-6 {
+    margin: 10px 0;
+}
+
+.content-right .row .card-body {
+    width: 190px;
+    height: 300px;
+    padding: 10px;
+}
+
+.content-right .row .card-img {
+    width: 170px;
+    height: 230px;
+}
+
+.content-right .row .card-img img {
+    width: 165px;
+    height: 230px;
+}

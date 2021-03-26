@@ -1,0 +1,83 @@
+.container h6 .post-title {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.container h6 .post-title:hover {
+    color: #2edc7c;
+}
+
+.post-time {
+    color: rgb(173, 168, 168);
+    font-size: 13px;
+}
+
+.post-most {
+    margin: 10px 0;
+}
+
+.post-most-title {
+    text-decoration: none;
+    font-weight: 0;
+    color: #363f4d;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.post-most-title:hover {
+    color: #2edc7c;
+    text-decoration: none;
+}
+
+h5 {
+    border-bottom: 1px solid red;
+}
+
+.post {
+    margin-top: 0;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.title-head {
+    font-size: 25px;
+}
+
+.description_short {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.cangiua {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+#post-top {
+    display: block;
+    height: 300px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+#post-bottom {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    #post-top {
+        display: none;
+    }
+    #post-bottom {
+        display: block;
+    }
+    .cangiua {
+        width: 200px;
+        height: auto;
+    }
+}
